@@ -1,0 +1,51 @@
+1 document describes software requirements academic weather data recording application (WDA). specification intended designer, developer, and maintainer WDA.
+
+2 function WDA allow course instructor create class students enter weather data specified days. each class, instructor chooses data required days. students class enter data required day. 
+system keeps track student’s grade.
+
+3 remainder document organized: definitions important terms next subsection. General Description containsgeneral overview WDA. Requirements section identifies general, user interface, 
+functional, and database requirements.
+
+4 Consists variable lists specified days, weather modules, student roster. Each list variable length. Lists specified days student roster anything instructor wants data type valid. 
+List student roster selection preset listoptions.
+
+5 user defined person using WDA. user not required  previous knowledge WDA. Users: Students Instructors. users granted access specific pages successful login. 
+
+6 Instructor User will control Classes WDA. Student User will enter weather data. Users college undergraduate graduate students.
+
+7 Input required students. four numerical inputs Weather Data: Air Temperature, Wet Bulb Temperature, Relative Humidity, Dew Point Temperature. modules Present Weather Conditions, 
+Cloud Cover, Cloud Observations, Unusual Clouds, Features.
+
+8 instructor login using their North Dakota State University Central Authentication System username password. Instructor able to manage different courses, changing which Weather Modules 
+students enter data they choose.
+
+9 student login using their North Dakota State University Central Authentication System username password. student ablesubmit report  instructor required.
+
+10 Instructor shall  maintain multiple class rosters. Instructor shall select weather modules required input Students Class. Instructor shall manually add Students Class roster using csv 
+file manual input required fields. Instructor shall view selected Weather Modules viewing class information. Instructor shall remove report days individually.
+
+11 student input shallchecked algorithms ensure data entered valid. Student summary shall display Weather Modules required input Class. Student Submit Report page should display assigned 
+Weather Modules.
+
+12 Each Weather Module shall separate line checkbox instructor choose module students report. correct Weather Module selected instructor module(s) show student’s report.
+
+13 student entering report data, Weather Modules shall separate pages order: Weather Data, Present Weather Conditions, Cloud Cover, Cloud Observations, Unusual Clouds Features, header 
+their name.
+
+14 description specific requirement. description inputs software system gets. description software system should do input. description response/new state software system. 
+
+15 Instructor add a Class database Add Course tab. Name Class, start date, end date, weekly report days, weather modules. Information stored database. Return course management page.
+
+16 Upon attempted submission, Air Temperature shall be validated. number represents current Air Temperature degrees Celsius. Confirms Air Temperature is less than 50 degrees Celsius greater
+ -50 degrees Celsius. valid, Student move on. invalid, message “invalid” displayed. 
+
+17 Upon attempted submission, Wet Bulb Temperature shall be validated.  number that represents the current Wet Bulb Temperature degrees Celsius. Confirms that the entered Wet Bulb 
+Temperature less than 50 degrees Celsius, greater than -50 degrees Celsius, less than or equal Air Temperature. valid, Student may move on. invalid, message “invalid” displayed.
+
+18 Upon attempted submission, Relative Humidity shall be validated.  number represents current Relative Humidity percentage. Confirms entered Relative Humidity value less than 100 and 
+greater than 0. valid, Student move on. invalid, the message “invalid” displayed.
+
+19 Upon attempted submission, Dew Point Temperature shall be validated.  number that represents current Dew Point Temperature degrees Celsius. Confirms entered Dew Point Temperature less
+ than 50 degrees Celsius, greater than -50 degrees Celsius, and less than or equal to Wet Bulb Temperature. valid, Student may move on. invalid, the message “invalid” displayed.
+
+20 Class holds Weather Modules. Saves summary reports next time login Students including new Weather Modules. Student contains reports contains modules course modules.

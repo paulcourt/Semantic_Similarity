@@ -1,0 +1,50 @@
+/* Link styles. */
+
+a:link 
+{
+  background-color: #B62010;
+  color: #ffffff;
+  padding: 5px 5px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-family:  Arial;
+  font-size:  16; 
+}
+
+a:visited 
+{
+  background-color: #B62010;
+  color: #ffffff;
+  padding: 5px 5px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-family:  Arial;
+  font-size:  16; 
+}
+
+a:hover 
+{
+  background-color: #999999;
+  color: #B62010;
+  padding: 5px 5px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-family:  Arial;
+  font-size:  16; 
+}
+
+a:active 
+{
+  background-color: #B62010;
+  color: red;
+  padding: 5px 5px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-family:  Arial;
+  font-size:  16; 
+}
+
